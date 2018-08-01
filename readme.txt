@@ -1,0 +1,1 @@
+file which you need to check is in folder "slider-proj" and called "index.html"
