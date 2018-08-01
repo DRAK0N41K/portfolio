@@ -1,0 +1,12 @@
+.carousel-inner.onebyone-carosel { margin: auto; width: 90%; }
+.onebyone-carosel .active.left { left: -33.33%; }
+.onebyone-carosel .active.right { left: 33.33%; }
+.onebyone-carosel .next { left: 33.33%; }
+.onebyone-carosel .prev { left: -33.33%; }
+.btn {
+  background: linear-gradient(top, rgba(0, 0, 0, 0.7) 50%, rgba(0, 0, 0, 0.2) 50%) !important;
+  border-radius: 0 !important;
+}
+.btn:hover {
+  background: linear-gradient(top, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.2) 50%) !important;
+}
