@@ -1,0 +1,38 @@
+.container {
+  margin: 0px auto;
+  float: left;
+  position: relative;
+  width: 75.7552083333%;
+}
+
+.p {
+  width: 250px;
+  height: 140.62500px;
+  margin-right: 5%;
+  position: relative;
+  float: left;
+  margin-top: 5%;
+
+}
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1439px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+  .container {
+    width: 75.7552083333%;
+    margin: 0px 7.5%;
+  }
+
+}
+
+@media only screen
+  and (min-device-width: 1440px)
+  and (max-device-width: 1920px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+  .container {
+    width: 75.7552083333%;
+    margin: 0px 7.5%;
+    padding-left: 177.5px;
+  }
+}

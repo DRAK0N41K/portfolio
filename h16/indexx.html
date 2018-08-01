@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-offset-2">
+        <form class="form-horizontal" role="form">
+
+
+          <div class="form-group">
+            <label for="fn" class="col-sm-2 control-label">Student name</label>
+
+              <div class="col-sm-5">
+             <div class="input-group input-group-lg">
+               <span class="input-group-addon">
+                 <span class="fa fa-user"></span>
+               </span>
+               <input class="form-control" type="text" placeholder="First name">
+             </div>
+             </div>
+
+
+           <div class="col-sm-5">
+            <div class="input-group input-group-lg">
+              <span class="input-group-addon">
+                <span class="fa fa-user"></span>
+              </span>
+              <input class="form-control" type="text" placeholder="Second name">
+            </div>
+          </div>
+          </div>
+          <div class="form-group">
+            <label for="bd" class="control-label col-sm-2">Birth day</label>
+            <div class="col-sm-10">
+              <input type="date" class="form-control" name="bd">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="g-r" class="control-label col-sm-2">Gender</label>
+            <div class="col-sm-10">
+                 <select class="selectpicker form-control" name="g-r">
+                  <option value="man">Man</option>
+                  <option value="wooman">Wooman</option>
+                 </select>
+            </div>
+          </div>
+          <div class="form-group">
+         <label for="as" class="control-label col-sm-2">Address</label>
+          <div class="col-sm-5">
+           <div class="input-group">
+             <span class="input-group-addon">
+               <span class="fa fa-flag"></span>
+             </span>
+             <input class="form-control" type="text" placeholder="Country">
+           </div>
+         </div>
+
+         <div class="col-sm-5">
+          <div class="input-group">
+            <span class="input-group-addon">
+              <span class="fa fa-home"></span>
+            </span>
+            <input class="form-control" type="text" placeholder="City">
+          </div>
+        </div>
+            <div class="col-sm-offset-2">
+              <div class="col-sm-6">
+                <input class="form-control" type="text" placeholder="Postal/zip code">
+              </div>
+              <div class="col-sm-6">
+                 <input class="form-control" type="text" placeholder="State / Provice">
+              </div>
+            </div>
+            <div class="col-sm-offset-2 col-sm-10">
+              <input type="text" class="form-control" name="sa" placeholder="Street adress">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="se" class="col-sm-2">Student email</label>
+            <div class="col-sm-10">
+              <div class="input-group input-group-lg">
+                <span class="input-group-addon">
+                  <span class="glyphicon glyphicon-envelope"></span>
+                </span>
+                <input class="form-control" id="se" name="se" type="text">
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="at" class="col-sm-2">Aditional text</label>
+            <div class="col-sm-10">
+              <textarea class="form-control" id="at" name="at"></textarea>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-2">
+              <div class="checkbox">
+
+                <label><input type="checkbox">Запам'ятати мене</label>
+              </div>
+
+              <a href="./index.html"><button type="submit" name="button" class="btn btn-success">Registration</button></a>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

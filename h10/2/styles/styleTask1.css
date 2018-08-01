@@ -1,0 +1,23 @@
+img{
+	position: absolute;
+}
+.image1:hover{
+	opacity: 1;
+}
+.image2:hover{
+	opacity: 0;
+}
+.image2{
+	opacity: 1;
+}
+.transitions-images img{
+	position: absolute;
+	top: 38.89%;
+	background-color: white;
+	box-shadow: 0 0 20px 10px rgba(0,0,0,0.4);
+	left: 45.575%;
+	height: 240px;
+	width: 170px;
+	transition: opacity 2s;
+	padding: 1%;
+}

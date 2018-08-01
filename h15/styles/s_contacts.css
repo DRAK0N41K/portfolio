@@ -1,0 +1,42 @@
+.contacts {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  float: left;
+}
+.user {
+  width: 22.4561403509%;
+  float: left;
+}
+.conn {
+  width: 72.54385964915%;
+  float: left;
+  padding-top: 3%;
+  padding-left: 5%;
+}
+@media only screen
+  and (max-device-width: 991px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  .user {
+    clear: left;
+    width: 100%;
+  };
+  .conn {
+    clear: left;
+    width: 100%;
+  }
+}
+@media only screen
+  and (min-device-width: 992px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .user {
+      width: 22.4561403509%;
+      float: left;
+    }
+    .conn {
+      width: 72.54385964915%;
+      float: left;
+      padding-top: 3%;
+      padding-left: 5%;
+    }
+}

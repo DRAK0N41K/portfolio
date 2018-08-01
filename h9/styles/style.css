@@ -1,0 +1,39 @@
+.text2::before{
+	content: "Counter-Strike: Global Offensive (CS: GO) засновується на тій самій ігровій механіці, що привела серію до успіху 15 років тому. CS: GO пропонує як нові мапи, персонажів і зброю, так і сучасну переробку класики серії CS (de_dust та інші). Окрім того, в CS: GO введені нові ігрові regimi. "; 
+}
+.game{
+	height: 30%;
+	padding: 0.75%;
+	border-style: solid;
+	width: 95%;
+	margin: 1.90% 2.5%;
+	box-shadow: 0 9px 10px -4px rgba(0,0,0,0.5);
+	background-image: url('../images/background.png');
+}
+img{
+	max-width: 100%;
+}
+.text{
+	float: right;
+	margin-top: -14.25%;
+	width: 66%;
+}
+h1{
+	text-align: center;
+}
+
+.text1::before{
+	content: "Dota is a competitive game of action and strategy, played both professionally and casually by millions of passionate fans worldwide. Players pick from a pool of over a hundred heroes, forming two teams of five players.";
+}
+.text3::before{
+	content: "Останні додатки GTA Online: Dewbauchee Specter, розкішний і легкий спорткар, і Collection Time, новий режим протиборства, в якому можна спустошувати кишені суперників, набираючи переможні очки. Грайте зараз.";
+}
+body{
+	background-image: url('../images/background.png')
+}
+img:hover{
+	box-shadow: 0 9px 10px -4px rgba(0,0,0,0.5);
+}
+div .image {
+	width: 31.8%;
+}

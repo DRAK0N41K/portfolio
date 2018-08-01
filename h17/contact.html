@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./styles/stylec.css">
+  <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+  </head>
+  <body>
+  <div class="navbar transparent navbar-inverse navbar-static-top hr">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#"><p class="wb">ForBetterWeb<p></a>
+      </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="./home.html"><p class="wh">home</p></a></li>
+        <li><a href="./aboutus.html"><p class="wh">about us</p></a></li>
+        <li><a href="./s1mplepage.html"><p class="wh">s1mple page</p></a></li>
+        <li><a href="./contact.html"><p class="wh">contacts</p></a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="slider">
+    <div id="myCarousel" class="carousel slide">
+
+      <!--індикатори каруселі внизу сторінки-->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <div class="carousel-inner">
+
+        <div class="item active">
+          <img src="./images/1.jpg" alt="1" class="img-responsive">
+          <div class="carousel-caption">
+            <h1>Sea</h1>
+            <p>It's zero meters height, but it's beautiful.</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="./images/2.jpg" alt="1" class="img-responsive">
+          <div class="carousel-caption">
+            <h1>Mounatins</h1>
+            <p>It's middle height, but it's beautiful too.</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="./images/3.jpg" alt="1" class="img-responsive">
+          <div class="carousel-caption">
+            <h1>City</h1>
+            <p>Our living place. It's only beautiful no more.</p>
+          </div>
+        </div>
+      </div>
+
+      <a href="#myCarousel" class="carousel-control left" data-slide="prev">
+        <span class="icon-prev"></span>
+      </a>
+
+      <a href="#myCarousel" class="carousel-control right" data-slide="next">
+        <span class="icon-next"></span>
+      </a>
+    </div>
+    <div class="container">
+      <div class="col-sm-offset-2">
+
+        <div class="form-style-8">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi autem mollitia explicabo soluta, voluptates consectetur reprehenderit repudiandae quis doloribus quos placeat commodi fuga, veritatis tenetur eum quae animi. Odio, earum.</p>
+          <form>
+            <input type="text" name="field1" placeholder="Full Name">
+            <input type="email" name="field2" placeholder="Email">
+            <input type="url" name="field3" placeholder="Website">
+            <textarea placeholder="Message" onkeyup="adjust_textarea(this)"></textarea>
+            <button type="button" name="button" class="btn">Send</button>
+          </form>
+        </div>
+     </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,81 @@
+.container{
+  width: 15.1515151515%;
+  height: 27.7777777778%;
+  margin: 10px 0 0 41.5242424242%;
+}
+.clock{
+   background: white;
+   border: 10px solid #000;
+   border-radius: 50%;
+   position: relative;
+   width: 300px;
+   height: 300px;
+   float: left;
+   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5) inset;
+   margin: 10px auto;
+}
+.zero,.three,.six,.nine{
+   position: absolute;
+   color: black;
+   font-size: 40px;
+   font-weight: 900;
+   font-family: Comic Sans, Comic Sans MS, cursive;
+}
+
+.zero,.six{
+   height: 10px;
+   width: 4px;
+}
+
+.three,.nine{
+   height: 4px;
+   width: 10px;
+
+}
+
+.zero{
+   left: 42%;
+   top: -7px;
+}
+
+.three{
+   right: 44px;
+   top: 41.9%;
+}
+
+.six{
+   bottom: 44px;
+   left: 44%;
+}
+
+.nine{
+   left: 4px;
+   top: 41.9%;
+}
+.second{
+   height: 135px;
+   width: 4px;
+   background: #FC0505;
+   position: absolute;
+   left: 50.5%;
+   top: 20px;
+   animation: tick 60s infinite steps(60);
+   -webkit-animation: tick 60s infinite steps(60);
+   transform-origin: 2px 100%;
+   -webkit-transform-origin: 2px 100%;
+}
+@keyframes tick {
+  0%{
+    transform: rotateZ(0deg);
+  }
+  100%{
+    transform: rotateZ(360deg);
+  }
+}
+.center {
+  position: absolute;
+  top: 51%;
+  left: 51%;
+  border: 1px solid black;
+  border-radius: 50%;
+}

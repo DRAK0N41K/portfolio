@@ -1,0 +1,287 @@
+header {
+  width: 100%;
+position: absolute;
+	top: 0px;
+	left: 0px;
+	transition: background 1s;
+	font-family: monospace;
+	font-size: 1.1em;
+	height: 2.47572815534%;
+}
+
+ul {
+  background: #333;
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+ul li {
+  float: left;
+}
+
+a {
+  display: inline-block;
+  color: #f2f2f2;
+  padding: 20px;
+  text-decoration: none;
+  text-align: center;
+	font-weight: 100;
+}
+
+ul .ss a:hover {
+  background: black;
+}
+.ggvp{
+	margin-left: 56.3%;
+}
+.qwed{
+	background-image: url(../images/img.png);
+	background-size: cover;
+	font-size: 0.9em;
+}
+.sy{
+	background: black;
+}
+.ggvp:hover{
+	background: black;
+}
+ul .st a:hover {
+  background: black;
+
+}
+.st a{
+  color: grey;
+}
+.ggvp a{	
+	color: grey;
+}
+.sy a{
+	color: grey;
+}
+h3::before { 
+content: "Portfolio"; 
+color: black; 
+right: 1%; 
+font-size: 50px; 
+} 
+h3 { 
+color: grey; 
+left: 0; 
+bottom: 1%; 
+font-size: 35px; 
+} 
+.container { 
+display: block; 
+position: absolute; 
+width: 100%; 
+} 
+.Acer::before { 
+content: url(../images/acer.png); 
+} 
+.Acer::after { 
+content: 'Acer Inc — тайванська компанія з виробництва компютерної техніки і електроніки.'; 
+color: black; 
+font-size: 1em; 
+} 
+.Amd::before { 
+content: url(../images/amd.png); 
+} 
+.Amd::after { 
+content: 'Advanced Micro Devices, Inc. (AMD) — Компанія-виробник інтегрованої електроніки. Це другий найбільший постачальник x86 сумісних процесорів і великий постачальник флеш-памяті.' ; 
+color: black; 
+font-size: 1em; 
+} 
+.Asus::before { 
+content: url(../images/asus.png); 
+} 
+.Asus::after { 
+content: 'ASUSTeK Computer Incorporated — розташована в Тайвані міжнародна компанія, що виробляє материнські плати, відеокарти, оптичні приводи, КПК, монітори, ноутбуки, сервери, мережеве обладнання, мобільні телефони, компютерні корпуси, компоненти і системи охолодження .'; 
+color: black; 
+font-size: 1em; 
+} 
+.Dell::before { 
+content: url(../images/dell.png); 
+} 
+.Dell::after { 
+content: 'Dell — американська компанія яка один із провідних світових лідерів в галузі розробки і виробництва компютерних систем . '; 
+color: black; 
+font-size: 1em; 
+} 
+.Intel::before { 
+content: url(../images/intel.png); 
+} 
+.Intel::after { 
+content: 'Intel Corporation — найбільша у світі компанія-виробник напівпровідникових елементів та пристроїв, найбільш відома як розробник та виробник x86-серії мікропроцесорів, процесорів для IBM-сумісних персональних компютерів.'; 
+color: black; 
+font-size: 1em; 
+} 
+.Viduxa::before { 
+content: url(../images/nvidia.png); 
+} 
+.Viduxa::after { 
+content: 'Nvidia — американський виробник графічних процесорів, відеоадаптерів під торговими марками Riva TNT та GeForce, мультимедійних та комунікаційних пристроїв для ПК та ігрових консолей, на кшталт Sony PlayStation 3 та Xbox.'; 
+color: black; 
+font-size: 1em; 
+} 
+.Acer{ 
+position: relative; 
+left:5%; 
+width: 40%; 
+text-align: left; 
+} 
+.Amd{ 
+position: relative; 
+margin-top: -25%; 
+left: 50%; 
+width: 40%; 
+text-align: left; 
+} 
+.Asus{ 
+position: relative; 
+top: 70%; 
+left:5%; 
+width: 40%; 
+text-align: left; 
+margin-top: -1%; 
+} 
+.Dell{ 
+position: relative; 
+margin-top: -18.3%; 
+left:50%; 
+width: 40%; 
+text-align: left; 
+} 
+.Intel{ 
+position: relative; 
+top: 120%; 
+margin-top: 5%; 
+left: 5%; 
+width: 40%; 
+text-align: left; 
+} 
+.Viduxa{ 
+position: relative; 
+margin-top: -27.5%; 
+left: 50%; 
+width: 40%; 
+text-align: left; 
+} 
+h4{ 
+color: aqua; 
+font-size: 1em; 
+font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif; 
+}
+footer {
+background-color: lightblue;
+height: 23.0582524272%;
+top: 220%;
+position: absolute;
+width: 100%;
+}
+.container2 {
+text-align: center;
+display: inline-block;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+float: left;
+background-color: lightblue;
+position: absolute;
+}
+.al{
+	width: 23.33333333333333333334%;
+	background-color: lightblue;
+	padding-top: 5%;
+	padding-right: 5%;
+	padding-left: 5%;
+	padding-bottom: 5%;
+}
+.q::before{
+	content: url(../images/2.png)
+}
+.w::before{
+	content: url(../images/3.png)
+}
+.e::before{
+	content: url(../images/4.png)
+}
+.q::after{
+	content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, veniam! ipsum dolor sit amet. ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, ipsam?"
+}
+.w::after{
+	content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, veniam! ipsum dolor sit amet. ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, ipsam?"
+}
+.e::after{
+	content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, veniam! ipsum dolor sit amet. ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, ipsam?"
+}
+h2{
+	color: blue;
+	font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+}
+.w{
+	position: relative;
+	top: 0%;
+	left: 0%;
+	
+	
+}
+.q{
+	position: relative;
+	left: 33.333333333333334%;
+	margin-bottom: -24%;
+}
+.e{
+	position: relative;
+	left: 66.6666666667%;
+	margin-top: -24.5%;
+}
+.button-1{
+	positon: relative;
+	margin-top: -90%;
+	left: -26.3666666667%;
+	margin-bottom: 6%;
+}
+.button-2{
+	positon: relative;
+	margin-top: -90%;
+	left: -.00000667%;
+	margin-bottom: 6%;
+}
+.button-3{
+	positon: relative;
+	margin-top: -90%;
+	left: 26.0333334007%;
+	margin-bottom: 6%;
+}
+.button{
+	border: none;
+	padding: 10px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	background-color: #3c7eb8;
+	border-radius: 5px;
+	color: white;
+	position: relative;
+	width: 7%;
+}
+.autors{
+	background-color: silver;
+	text-align: center;
+	position: relative;
+	top: 115%;
+	padding: 1%;
+}
+main {
+	top: 2.47572815534%;
+	height: 74.2718446602%;
+	position: absolute;
+	width: 100%;
+}

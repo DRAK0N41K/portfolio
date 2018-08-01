@@ -1,0 +1,15 @@
+.text {
+  background: lightgrey;
+  height: 20%;
+  padding: 2.5%;
+}
+.text2 {
+  background: lightgrey;
+  height: 20%;
+  padding: 2.5% 2.5% 0 2.5%;
+  font-size: 1.6em;
+  font-family: Comic Sans, Comic Sans MS, cursive;
+}
+.img {
+  width: 100%;
+}
