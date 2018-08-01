@@ -1,0 +1,16 @@
+.div1{
+  background-color: yellow;
+  width: 20%;
+  overflow-y: visible;
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+  float: left;
+  box-sizing:border-box;
+  font-family: sans-serif;
+  color: blue;
+}
+
+body{
+  background-color: lightgrey;
+}

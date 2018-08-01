@@ -1,0 +1,33 @@
+.img1{
+  border-style: dotted;
+  border-width: 1px;
+  border-color: red;
+  position: absolute;
+}
+.img2{
+  border-style: dotted;
+  border-width: 1px;
+  border-color: red;
+  position: absolute;
+  top: 100px;
+  left: 110px;
+}
+.img3{
+  border-style: dotted;
+  border-width: 1px;
+  border-color: red;
+  position: absolute;
+  top: 190px;
+  left: 210px;
+}
+.img4{
+  border-style: dotted;
+  border-width: 1px;
+  border-color: red;
+  position: absolute;
+  top: 280px;
+  left: 310px;
+}
+body{
+  background-color: lightgrey;
+}

@@ -1,0 +1,31 @@
+.white{
+  background-color: white;
+}
+table{
+  background-color: lightgray;
+}
+caption{
+  background-color: lightgray;
+  text-align: center;
+}
+.aa{
+  font-family: arial;
+}
+.hh{
+  font-family:  serif;
+}
+.gg{
+  font-family: monospace;
+}
+.bb{
+  color: blue;
+  background-color: white;
+}
+.pp{
+  color: pink;
+  background-color: white;
+}
+.gr{
+  color: green;
+  background-color: white;
+}

@@ -1,0 +1,12 @@
+div{
+  border-width: 2px;
+  border-style: solid;
+  width: 160px;
+  position: absolute;
+  top: 50%;
+  left: 44%;
+  margin-bottom: 100px;
+}
+body{
+  background-image: url(../images/background.jpg); 
+}

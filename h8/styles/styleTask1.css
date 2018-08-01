@@ -1,0 +1,23 @@
+p::before{
+	content: "GoITeens";
+	font-size: 2.5em;
+	text-align: center;
+	color: yellow;
+}
+div{
+	width: 30%;
+	border-style: solid;
+	text-align: center;
+	margin: 21% auto;
+	border-color: #25d9ad;
+	border-width: 3px;
+	font-family: sans-serif;
+	color: gray;
+}
+p::first-letter {
+	color: blue;
+	font-size: 2.5em;
+}
+p::after{
+	content:  url(../images/logo.png)
+}

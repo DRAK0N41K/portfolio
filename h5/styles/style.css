@@ -1,0 +1,29 @@
+*{
+  color: red;
+}
+div{
+  padding-right: 30px;
+}
+.author{
+  padding-left: 220px;
+}
+.second-couplet{
+  margin-top: -200px;
+  margin-left: 290px;
+}
+.third-couplet{
+  padding-top: -200px;
+}
+.fourth-couplet{
+  margin-left: 290px;
+  margin-top: -200px;
+}
+body {
+  background: url("../images/background.png") no-repeat right fixed;
+}
+main{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  border-style: solid;
+  border-color: red;
+  border-width: thin;
+}
