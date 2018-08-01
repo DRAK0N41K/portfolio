@@ -1,0 +1,190 @@
+/* header styles begin */
+
+/* header styles end */
+
+
+/* banner styles begin */
+
+/* banner styles end */
+
+
+/* about styles begin */
+.section-header {
+  font-weight: 900;
+
+}
+.section-paragraph {
+  font-weight: 900;
+}
+/* about styles end */
+
+
+/* services styles begin */
+
+/* services styles end */
+
+
+/* articles styles begin */
+.carousel-inner.onebyone-carosel { margin: auto; width: 90%; }
+.onebyone-carosel .active.left { left: -33.33%; }
+.onebyone-carosel .active.right { left: 33.33%; }
+.onebyone-carosel .next { left: 33.33%; }
+.onebyone-carosel .prev { left: -33.33%; }
+.article-1 {
+  background: #222222;
+  color: #eeeeee;
+  padding: 15%;
+  width: 300px;
+
+}
+.article-center-txt {
+  font-size: 1.4em;
+  padding: 10% 0;
+}
+.time {
+  float: right;
+  padding-top: 4%;
+  font-size: 0.7em;
+}
+.article-footer {
+  padding-top: 10%;
+}
+/* articles styles end */
+
+
+/* clients styles begin */
+
+/* clients styles end */
+
+
+/* portfolio styles begin */
+
+/* portfolio styles end */
+
+
+/* quote styles begin */
+
+/* quote styles end */
+
+
+/* team styles begin */
+
+/* team styles end */
+
+
+/* facts styles begin */
+
+/* facts styles end */
+
+
+/* products styles begin */
+
+/* products styles end */
+
+
+/* blog styles begin */
+
+/* blog styles end */
+
+
+/* tweets styles begin */
+
+/* tweets styles end */
+
+
+/* footer styles begin */
+<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<style type="text/css">
+.form-style-8{
+    font-family: 'Open Sans Condensed', arial, sans;
+    width: 500px;
+    padding: 30px;
+    background: #FFFFFF;
+    margin: 50px auto;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+    -webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);
+
+}
+.form-style-8 h2{
+    background: #4D4D4D;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #797979;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 20px;
+    margin: -30px -30px 30px -30px;
+}
+.form-style-8 input[type="date"],
+.form-style-8 input[type="datetime"],
+.form-style-8 input[type="number"],
+.form-style-8 input[type="search"],
+.form-style-8 input[type="time"],
+.form-style-8 input[type="url"],
+.form-style-8 input[type="password"],
+.form-style-8 textarea,
+.form-style-8 select
+{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    margin-bottom: 10px;
+    font: 16px Arial, Helvetica, sans-serif;
+    height: 45px;
+}
+.form-style-8 textarea{
+    resize:none;
+    overflow: hidden;
+}
+.form-style-8 input[type="button"],
+.form-style-8 input[type="submit"]{
+    -moz-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+    box-shadow: inset 0px 1px 0px 0px #45D6D6;
+    background-color: #212121;
+    border: 1px solid #27A0A0;
+    display: inline-block;
+    cursor: pointer;
+    color: #212121;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 14px;
+    padding: 8px 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.form-style-8 input[type="button"]:hover,
+.form-style-8 input[type="submit"]:hover {
+    background:linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
+    background-color:#34CACA;
+}
+.form-style-8 input[type="text"],
+.form-style-8 input[type="email"]
+{
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  outline: none;
+  display: block;
+  width: 50%;
+  padding: 7px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  background: transparent;
+  margin-bottom: 10px;
+  font: 16px Arial, Helvetica, sans-serif;
+  height: 45px;
+  float: left;
+}
+
+footer {
+  background: #212121;
+}
+/* footer styles end */
